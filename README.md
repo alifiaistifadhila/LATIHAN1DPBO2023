@@ -7,7 +7,7 @@
 * Java
 <img width="697" alt="image" src="https://user-images.githubusercontent.com/99643681/219002830-17c11842-c0f5-4661-8e80-8cef70925bd1.png">
 
-* c++
+* C++
 <img width="768" alt="image" src="https://user-images.githubusercontent.com/99643681/219002244-7e1f6d6f-954c-4cdb-a89b-1cd22602c0c9.png">
 
 * Python
