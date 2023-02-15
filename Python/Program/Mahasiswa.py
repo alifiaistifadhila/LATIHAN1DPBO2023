@@ -1,18 +1,18 @@
 class Mahasiswa:
 
 	__nama = ""
-    __nim = ""
-    __prodi = ""
-    __fakultas = ""
-    
-    def __init__(self, nama = "", nim = "", prodi = "", fakultas = ""):
+	__nim = 0
+	__prodi = ""
+	__fakultas = ""
+	
+	def __init__(self, nama = 0, nim = "", prodi = "", fakultas = ""):
 		self.__nama = nama
 		self.__nim = nim
 		self.__prodi = prodi
 		self.__fakultas = fakultas
 
 	#getter dan setter
-    def setNama(self, nama):
+	def setNama(self, nama):
 		self.__nama = nama
 
 	def getNama(self):

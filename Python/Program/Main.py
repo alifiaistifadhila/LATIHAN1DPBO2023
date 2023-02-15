@@ -7,7 +7,7 @@ mahasiswaa = []
 n = int(input())
 for i in range (n):
     nama = str(input())
-    nim = str(input())
+    nim = int(input())
     prodi = str(input())
     fakultas = str(input())
 
@@ -19,10 +19,8 @@ print("DATA MAHASISWA")
 print("==============")
 for mahasiswa in mahasiswaa:
     print("Mahasiswa ", str(i+1))
-    print("Nama             : ", mahasiswa.getNama())
-    print("NIM              : ", mahasiswa.getNim())
-    print("Program Studi    : ", mahasiswa.getProdi())
-    print("Fakultas         : ", mahasiswa.getFakultas())
+    print("Nama             : " + str(mahasiswa.getNama()))
+    print("NIM              : " + str(mahasiswa.getNim()))
+    print("Program Studi    : " + str(mahasiswa.getProdi()))
+    print("Fakultas         : " + str(mahasiswa.getFakultas()))
     i += 1
-
-	
